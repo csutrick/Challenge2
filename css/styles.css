@@ -1,5 +1,41 @@
+/* general styles */
 body{
     background-color: #EDEEF6;
+}
+/* navbar styles */
+nav {
+    background-color: #31343D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div {
+    background-color: #91CBCD;
+    display: flex;
+    align-items: center;
+    height: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+nav div span {
+    color: #31343D;
+    padding-left: 75px;
+    padding-right: 10px;
+    font-size: 42px;
+}
+nav ul {
+    color: #91CBCD;
+    display: flex;
+    margin-right: 75px;
+}
+nav ul a {
+    font-size:28px;
+    padding-left: 30px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+nav ul a:hover {
+    font-size: 30px;
 }
 /* sidebar container styles */
 .container-sidebar {
@@ -40,6 +76,7 @@ body{
 }
 #img-text span {
     font-size: 50px;
+    color: #31343D;
 }
 /* about me container styles */
 #container-aboutMe {
@@ -134,7 +171,7 @@ footer {
     display: flex;
     margin-top: 40px;
 }
-.footer {
+#footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,7 +180,7 @@ footer {
     padding-left: 45px;
     padding-right: 350px;
 }
-.footer a {
+#footer a {
     text-decoration: none;
     font-size: 32px;
 }
@@ -152,11 +189,7 @@ footer {
 
 
 
-
-
-
-
-
+/* resize window styles */
 @media (max-width: 1415px) {
     #container-content {
         justify-content: center;
