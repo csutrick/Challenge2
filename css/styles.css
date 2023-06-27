@@ -110,8 +110,7 @@ nav ul a:hover {
     margin: 0px 0px 0px 20px;
     border: 5px #91CBCD solid;
     border-radius: 3px;
-    /* BG image */
-    background-image: url(img1.jpeg);
+    background-image: url(/assets/img/project2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,6 +122,7 @@ nav ul a:hover {
 }
 #card-feature:hover {
     scale: 101%;
+    opacity: 75%;
 }
 /* card styles */
 .card {
@@ -132,11 +132,7 @@ nav ul a:hover {
     margin: 40px 20px 0px 20px;
     border: 5px #91CBCD solid;
     border-radius: 3px;
-    /* BG image */
-    background-image: url(img1.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+
 }
 .card a {
     display: block;
@@ -145,6 +141,31 @@ nav ul a:hover {
 }
 .card:hover {
     scale: 101%;
+    opacity: 75%;
+}
+#card1 {
+    background-image: url(/assets/img/challenge5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#card2 {
+    background-image: url(/assets/img/project1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#card3 {
+    background-image: url(/assets/img/challenge6.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#card4 {
+    background-image: url(/assets/img/challenge9.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 /* card text styles */
 .text-field {
@@ -181,7 +202,9 @@ footer {
     padding-right: 350px;
 }
 #footer a {
-    text-decoration: none;
+    color: #31343D;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
     font-size: 32px;
 }
 
@@ -190,7 +213,7 @@ footer {
 
 
 /* resize window styles */
-@media (max-width: 1415px) {
+@media (max-width: 1400px) {
     #container-content {
         justify-content: center;
     }

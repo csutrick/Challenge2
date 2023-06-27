@@ -1,0 +1,32 @@
+# <Challenge2/Personal Portfolio>
+
+## Description
+
+This website is going to be used to show off my work to potential employers. It also gives people an exampele of some of my work and
+lets people be able to conntact me if they choose. I think this website is important because it a central spot for me to store my work
+in a clean and 1 point to find all you need. I learned how to do some hover commands and how to just all aroudn build and style a whole 
+webpage.
+
+## Installation
+
+Just launch the website either in the browser or launch index.html in IDE of choice
+
+## Usage
+
+This website doesnt have any user features. Just click on my works if they sounds interesting or contact me which you will find on the bottom
+
+## Credits
+
+Styling done in basic CSS using flexbox
+
+## License
+
+MIT License
+
+Copyright (c) 2023 csutrick
+
+## Features
+
+- Short description of me
+- See my works and click on them to be brought to the gitub repo
+- Find my contact info on the bottom of the page
